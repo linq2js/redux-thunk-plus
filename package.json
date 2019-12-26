@@ -1,0 +1,50 @@
+{
+  "name": "redux-thunk-plus",
+  "version": "0.0.1",
+  "description": "Advanced thunk middleware for Redux",
+  "main": "src/redux-thunk-plus.js",
+  "types": "src/redux-thunk-plus.d.ts",
+  "scripts": {
+    "test": "jest",
+    "$publish": "npm test && npm publish"
+  },
+  "keywords": [
+    "redux",
+    "thunk",
+    "middleware",
+    "redux-middleware",
+    "flux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linq2js/redux-thunk-plus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linq2js/redux-thunk-plus/issues"
+  },
+  "homepage": "https://github.com/linq2js/redux-thunk-plus#readme",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/cli": "^7.7.7",
+    "babel-jest": "^24.9.0",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/runtime": "^7.7.7",
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "prettier": "^1.19.1",
+    "redux": "^4.0.5",
+    "node-fetch": "^2.6.0"
+  }
+}
